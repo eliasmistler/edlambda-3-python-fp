@@ -7,3 +7,16 @@ Python is a powerful and pragmatic multi-paradigm language. While it has a bias 
 This talk aims to show how thinking in a functional mindset can improve your Python code, particularly if you work in an exploratory environment such as Jupyter.
 
 We will look at the conceptual side and potential benefits, as well as some practical examples using Pandas and the toolz library.
+
+## Run the notebook
+Either run in [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/eliasmistler/edlambda-3-python-fp/HEAD), or follow the following steps to run locally:
+
+- Create a virtual environment if required
+- Install the required libraries:
+```bash
+pip install --upgrade -r requirements.txt
+```
+- start Jupyter:
+```bash
+jupyter lab
+```
